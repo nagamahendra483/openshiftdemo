@@ -1,0 +1,37 @@
+2020-07-31 09:15:24.016  INFO 14644 --- [main] com.example.demo.ExampleApplication      : Starting ExampleApplication on HDC3-L-PF1TGJNZ with PID 14644 (C:\Users\naga.m.varakuti\Downloads\demo\target\classes started by naga.m.varakuti in C:\Users\naga.m.varakuti\Downloads\demo)
+2020-07-31 09:15:24.031  INFO 14644 --- [main] com.example.demo.ExampleApplication      : No active profile set, falling back to default profiles: default
+2020-07-31 09:15:25.813  INFO 14644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-31 09:15:25.935  INFO 14644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 1 JPA repository interfaces.
+2020-07-31 09:15:27.471  INFO 14644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-31 09:15:27.499  INFO 14644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-31 09:15:27.499  INFO 14644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-07-31 09:15:27.804  INFO 14644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-31 09:15:27.804  INFO 14644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3665 ms
+2020-07-31 09:15:28.035  INFO 14644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-31 09:15:28.452  INFO 14644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-31 09:15:28.553  INFO 14644 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-31 09:15:29.190  INFO 14644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-31 09:15:29.324  INFO 14644 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-31 09:15:29.532  INFO 14644 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-07-31 09:15:30.039  INFO 14644 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-31 09:15:30.340  INFO 14644 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-31 09:15:31.677  INFO 14644 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-31 09:15:31.687  INFO 14644 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-31 09:15:32.388  WARN 14644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-31 09:15:33.711  INFO 14644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-31 09:15:33.711  INFO 14644 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-31 09:15:33.711  INFO 14644 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-31 09:15:33.739  INFO 14644 --- [main] com.example.demo.ExampleApplication      : Started ExampleApplication in 10.711 seconds (JVM running for 12.97)
+2020-07-31 09:19:41.447  INFO 14644 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-31 09:19:41.448  INFO 14644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-31 09:19:41.495  INFO 14644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2020-07-31 09:19:59.197  INFO 14644 --- [http-nio-8080-exec-4] com.example.demo.ExampleApplication      :  All Employee Details Retrieved
+2020-07-31 09:21:44.293  INFO 14644 --- [http-nio-8080-exec-5] com.example.demo.ExampleApplication      : user retrieved with valid Id 2
+2020-07-31 09:21:52.522  WARN 14644 --- [http-nio-8080-exec-2] com.example.demo.ExampleApplication      : user tried to Retrieve With invalid Id 5
+2020-07-31 09:22:13.332  INFO 14644 --- [http-nio-8080-exec-3] com.example.demo.ExampleApplication      : new user added with id 4
+2020-07-31 09:22:48.822  WARN 14644 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "4name=heli"]
+2020-07-31 09:23:17.950  INFO 14644 --- [http-nio-8080-exec-1] com.example.demo.ExampleApplication      : user updated account with id 4
+2020-07-31 09:23:44.551  WARN 14644 --- [http-nio-8080-exec-6] com.example.demo.ExampleApplication      : user tried to update With invalid Id 6
+2020-07-31 09:24:09.908  INFO 14644 --- [http-nio-8080-exec-4] com.example.demo.ExampleApplication      : user deleted account with id 3
+2020-07-31 09:24:29.050  WARN 14644 --- [http-nio-8080-exec-7] com.example.demo.ExampleApplication      : user tried to delete account with wrong id 3
+2020-07-31 09:24:41.480  INFO 14644 --- [http-nio-8080-exec-8] com.example.demo.ExampleApplication      :  All Employee Details Retrieved
